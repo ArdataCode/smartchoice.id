@@ -1,0 +1,68 @@
+[01-Mar-2024 04:25:40 UTC] Cron reschedule event error for hook: elementor_1_elementor_pro_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_pro_updater_cron_interval","args":[],"interval":300}
+[12-Mar-2024 07:54:57 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[22-Mar-2024 20:37:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/smartchoice.id/wp-includes/update.php on line 211
+[22-Mar-2024 20:37:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/smartchoice.id/wp-includes/update.php on line 449
+[22-Mar-2024 20:37:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/smartchoice.id/wp-includes/update.php on line 730
+[02-Apr-2024 19:45:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/smartchoice.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/landingu/smartchoice.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/smartchoice.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/smartchoice.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/smartchoice.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/smartchoice.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 22:55:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/smartchoice.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/landingu/smartchoice.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/smartchoice.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/smartchoice.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/smartchoice.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/smartchoice.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[01-May-2024 02:50:21 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[07-May-2024 18:37:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/smartchoice.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/landingu/smartchoice.id/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/landingu/smartchoice.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/smartchoice.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/smartchoice.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/smartchoice.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/smartchoice.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/smartchoice.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/smartchoice.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[12-May-2024 06:39:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/smartchoice.id/wp-includes/update.php on line 205
+[14-May-2024 06:39:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/smartchoice.id/wp-includes/update.php on line 724
